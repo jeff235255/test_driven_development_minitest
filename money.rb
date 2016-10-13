@@ -13,4 +13,8 @@ class Money
   def self.franc(amount)
     Money.new(amount, :CHF)
   end
+
+  def self.vnd(amount)
+    Money.new(amount, :VND)
+  end
 end
